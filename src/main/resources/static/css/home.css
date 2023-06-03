@@ -1,0 +1,50 @@
+#main-banner{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.cmt-box{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    line-height: 1.2;
+}
+.btn-now{
+    margin: 50px auto 0;
+    font-size: 20px;
+    display: inline-block;
+}
+.cmt-1{
+    font-size: 32px;
+}
+#main-banner>img{
+    width: 55%;
+    height: fit-content;
+    margin: auto;
+}
+#banner-2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#banner-2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+#banner-2>img{
+    width: 45%;
+    height: fit-content;
+    margin: auto;
+}
+.cmt-2{
+    width: 55%;
+    margin: auto 15px;
+    color: #5b5b5b;
+    text-align: center;
+}
+.cmt-2>b{
+    color: #4EF655;
+    font-family: 'Hanna', fantasy;
+    font-size: 30px;
+}
