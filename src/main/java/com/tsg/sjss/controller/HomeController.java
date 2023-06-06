@@ -11,4 +11,8 @@ public class HomeController {
 
         return "views/home";
     }
+    @GetMapping("/payment")
+    public String payment(){
+        return "views/payment";
+    }
 }
