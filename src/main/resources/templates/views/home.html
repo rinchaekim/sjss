@@ -1,8 +1,28 @@
 <html
         xmlns:th="http://www.thymeleaf.org"
         xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-        layout:decorate="layout/default_layout">
+        layout:decorate="~{layout/default_layout}">
 <th:block layout:fragment="content">
-    <div>홈페이지</div>
+    <link th:href="@{/css/home.css}" rel="stylesheet">
+    <div class="container">
+        <div id="main-banner">
+            <div class="cmt-box">
+                <div class="cmt-1">AI를 통해 간편하게<br>자기소개서 첨삭을 받아보세요!</div>
+                <a class="btn-green btn-now">지금 바로 사용해보기</a>
+            </div>
+            <img src="img/display.png">
+        </div>
+        <div id="banner-2">
+                <img src="img/5081336.jpg">
+                <div class="cmt-2">
+                    자기소개서 첨삭 프로그램 <b>쓰자, 소설!</b>은<br>
+                    chatGPT의 강력한 자연어 처리 알고리즘과 인공지능 기술을 활용하여<br>
+                    여러분의 자기소개서에 효과적인 문장 구성과 어휘를 제안합니다.<br>
+                    <쓰자, 소설!>의 정확하고 전문적인 첨삭을 통해 여러분의 자기소개서를 더욱<br> 강화시킬 수 있습니다.<br>
+                    간단한 어문 교정부터 감정 조절 등 다양한 옵션을 통해 여러분의 자기소개서를 <br>간편하게 수정하고 관리해보세요!
+                </div>
+        </div>
+    </div>
+
 </th:block>
 </html>

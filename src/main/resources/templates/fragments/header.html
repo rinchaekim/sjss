@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <th:block th:fragment="headerFragment">
-    <div>
-        <h2>header</h2>
+    <div class="header-container">
+        <div id="logo"><img src="img/sjss_logo2.png"></div>
+        <div id="home-menu">
+            <ul>
+                <li><a href="#main-banner">홈</a></li>
+                <li><a href="#banner-2">쓰자,소설!이란?</a></li>
+                <li><a href="#">사용 방법</a></li>
+                <li><a href="#">멤버십</a></li>
+            </ul>
+        </div>
+        <a class="btn-green btn-login" href="#">로그인</a>
     </div>
 </th:block>
 </html>
